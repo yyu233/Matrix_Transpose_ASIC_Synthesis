@@ -1,0 +1,2130 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 100
+        -transition_time
+        -capacitance
+Design : matrix_transpose
+Version: Q-2019.12-SP5-3
+Date   : Thu May 12 21:46:22 2022
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn65gplustc
+Wire Load Model Mode: segmented
+
+  Startpoint: in_4[7] (input port clocked by clk)
+  Endpoint: given_in[31]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[7] (in)                                      0.009     0.001      0.201 r
+  in_4[7] (net)                  2        0.002               0.000      0.201 r
+  U6/Z (BUFFD1)                                     0.305     0.176      0.377 r
+  given_in[31] (net)             1        0.050               0.000      0.377 r
+  given_in[31] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[6] (input port clocked by clk)
+  Endpoint: given_in[30]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[6] (in)                                      0.009     0.001      0.201 r
+  in_4[6] (net)                  2        0.002               0.000      0.201 r
+  U8/Z (BUFFD1)                                     0.305     0.176      0.377 r
+  given_in[30] (net)             1        0.050               0.000      0.377 r
+  given_in[30] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[5] (input port clocked by clk)
+  Endpoint: given_in[29]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[5] (in)                                      0.009     0.001      0.201 r
+  in_4[5] (net)                  2        0.002               0.000      0.201 r
+  U10/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[29] (net)             1        0.050               0.000      0.377 r
+  given_in[29] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[4] (input port clocked by clk)
+  Endpoint: given_in[28]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[4] (in)                                      0.009     0.001      0.201 r
+  in_4[4] (net)                  2        0.002               0.000      0.201 r
+  U12/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[28] (net)             1        0.050               0.000      0.377 r
+  given_in[28] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[3] (input port clocked by clk)
+  Endpoint: given_in[27]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[3] (in)                                      0.009     0.001      0.201 r
+  in_4[3] (net)                  2        0.002               0.000      0.201 r
+  U13/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[27] (net)             1        0.050               0.000      0.377 r
+  given_in[27] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[2] (input port clocked by clk)
+  Endpoint: given_in[26]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[2] (in)                                      0.009     0.001      0.201 r
+  in_4[2] (net)                  2        0.002               0.000      0.201 r
+  U15/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[26] (net)             1        0.050               0.000      0.377 r
+  given_in[26] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[1] (input port clocked by clk)
+  Endpoint: given_in[25]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[1] (in)                                      0.009     0.001      0.201 r
+  in_4[1] (net)                  2        0.002               0.000      0.201 r
+  U17/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[25] (net)             1        0.050               0.000      0.377 r
+  given_in[25] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[0] (input port clocked by clk)
+  Endpoint: given_in[24]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[0] (in)                                      0.009     0.001      0.201 r
+  in_4[0] (net)                  2        0.002               0.000      0.201 r
+  U19/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[24] (net)             1        0.050               0.000      0.377 r
+  given_in[24] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[7] (input port clocked by clk)
+  Endpoint: given_in[23]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[7] (in)                                      0.009     0.001      0.201 r
+  in_3[7] (net)                  2        0.002               0.000      0.201 r
+  U20/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[23] (net)             1        0.050               0.000      0.377 r
+  given_in[23] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[6] (input port clocked by clk)
+  Endpoint: given_in[22]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[6] (in)                                      0.009     0.001      0.201 r
+  in_3[6] (net)                  2        0.002               0.000      0.201 r
+  U22/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[22] (net)             1        0.050               0.000      0.377 r
+  given_in[22] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[5] (input port clocked by clk)
+  Endpoint: given_in[21]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[5] (in)                                      0.009     0.001      0.201 r
+  in_3[5] (net)                  2        0.002               0.000      0.201 r
+  U24/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[21] (net)             1        0.050               0.000      0.377 r
+  given_in[21] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[4] (input port clocked by clk)
+  Endpoint: given_in[20]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[4] (in)                                      0.009     0.001      0.201 r
+  in_3[4] (net)                  2        0.002               0.000      0.201 r
+  U26/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[20] (net)             1        0.050               0.000      0.377 r
+  given_in[20] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[3] (input port clocked by clk)
+  Endpoint: given_in[19]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[3] (in)                                      0.009     0.001      0.201 r
+  in_3[3] (net)                  2        0.002               0.000      0.201 r
+  U28/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[19] (net)             1        0.050               0.000      0.377 r
+  given_in[19] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[2] (input port clocked by clk)
+  Endpoint: given_in[18]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[2] (in)                                      0.009     0.001      0.201 r
+  in_3[2] (net)                  2        0.002               0.000      0.201 r
+  U29/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[18] (net)             1        0.050               0.000      0.377 r
+  given_in[18] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[1] (input port clocked by clk)
+  Endpoint: given_in[17]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[1] (in)                                      0.009     0.001      0.201 r
+  in_3[1] (net)                  2        0.002               0.000      0.201 r
+  U5/Z (BUFFD1)                                     0.305     0.176      0.377 r
+  given_in[17] (net)             1        0.050               0.000      0.377 r
+  given_in[17] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[0] (input port clocked by clk)
+  Endpoint: given_in[16]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[0] (in)                                      0.009     0.001      0.201 r
+  in_3[0] (net)                  2        0.002               0.000      0.201 r
+  U63/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[16] (net)             1        0.050               0.000      0.377 r
+  given_in[16] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[7] (input port clocked by clk)
+  Endpoint: given_in[15]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[7] (in)                                      0.009     0.001      0.201 r
+  in_2[7] (net)                  2        0.002               0.000      0.201 r
+  U61/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[15] (net)             1        0.050               0.000      0.377 r
+  given_in[15] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[6] (input port clocked by clk)
+  Endpoint: given_in[14]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[6] (in)                                      0.009     0.001      0.201 r
+  in_2[6] (net)                  2        0.002               0.000      0.201 r
+  U59/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[14] (net)             1        0.050               0.000      0.377 r
+  given_in[14] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[5] (input port clocked by clk)
+  Endpoint: given_in[13]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[5] (in)                                      0.009     0.001      0.201 r
+  in_2[5] (net)                  2        0.002               0.000      0.201 r
+  U57/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[13] (net)             1        0.050               0.000      0.377 r
+  given_in[13] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[4] (input port clocked by clk)
+  Endpoint: given_in[12]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[4] (in)                                      0.009     0.001      0.201 r
+  in_2[4] (net)                  2        0.002               0.000      0.201 r
+  U55/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[12] (net)             1        0.050               0.000      0.377 r
+  given_in[12] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[3] (input port clocked by clk)
+  Endpoint: given_in[11]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[3] (in)                                      0.009     0.001      0.201 r
+  in_2[3] (net)                  2        0.002               0.000      0.201 r
+  U53/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[11] (net)             1        0.050               0.000      0.377 r
+  given_in[11] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[2] (input port clocked by clk)
+  Endpoint: given_in[10]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[2] (in)                                      0.009     0.001      0.201 r
+  in_2[2] (net)                  2        0.002               0.000      0.201 r
+  U51/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[10] (net)             1        0.050               0.000      0.377 r
+  given_in[10] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[1] (input port clocked by clk)
+  Endpoint: given_in[9]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[1] (in)                                      0.009     0.001      0.201 r
+  in_2[1] (net)                  2        0.002               0.000      0.201 r
+  U49/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[9] (net)              1        0.050               0.000      0.377 r
+  given_in[9] (out)                                 0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[0] (input port clocked by clk)
+  Endpoint: given_in[8]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[0] (in)                                      0.009     0.001      0.201 r
+  in_2[0] (net)                  2        0.002               0.000      0.201 r
+  U47/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[8] (net)              1        0.050               0.000      0.377 r
+  given_in[8] (out)                                 0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[7] (input port clocked by clk)
+  Endpoint: given_in[7]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[7] (in)                                      0.009     0.001      0.201 r
+  in_1[7] (net)                  2        0.002               0.000      0.201 r
+  U45/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[7] (net)              1        0.050               0.000      0.377 r
+  given_in[7] (out)                                 0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[6] (input port clocked by clk)
+  Endpoint: given_in[6]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[6] (in)                                      0.009     0.001      0.201 r
+  in_1[6] (net)                  2        0.002               0.000      0.201 r
+  U43/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[6] (net)              1        0.050               0.000      0.377 r
+  given_in[6] (out)                                 0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[5] (input port clocked by clk)
+  Endpoint: given_in[5]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[5] (in)                                      0.009     0.001      0.201 r
+  in_1[5] (net)                  2        0.002               0.000      0.201 r
+  U41/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[5] (net)              1        0.050               0.000      0.377 r
+  given_in[5] (out)                                 0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[4] (input port clocked by clk)
+  Endpoint: given_in[4]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[4] (in)                                      0.009     0.001      0.201 r
+  in_1[4] (net)                  2        0.002               0.000      0.201 r
+  U39/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[4] (net)              1        0.050               0.000      0.377 r
+  given_in[4] (out)                                 0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[3] (input port clocked by clk)
+  Endpoint: given_in[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[3] (in)                                      0.009     0.001      0.201 r
+  in_1[3] (net)                  2        0.002               0.000      0.201 r
+  U37/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[3] (net)              1        0.050               0.000      0.377 r
+  given_in[3] (out)                                 0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[2] (input port clocked by clk)
+  Endpoint: given_in[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[2] (in)                                      0.009     0.001      0.201 r
+  in_1[2] (net)                  2        0.002               0.000      0.201 r
+  U4/Z (BUFFD1)                                     0.305     0.176      0.377 r
+  given_in[2] (net)              1        0.050               0.000      0.377 r
+  given_in[2] (out)                                 0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[1] (input port clocked by clk)
+  Endpoint: given_in[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[1] (in)                                      0.009     0.001      0.201 r
+  in_1[1] (net)                  2        0.002               0.000      0.201 r
+  U34/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[1] (net)              1        0.050               0.000      0.377 r
+  given_in[1] (out)                                 0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[0] (input port clocked by clk)
+  Endpoint: given_in[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[0] (in)                                      0.009     0.001      0.201 r
+  in_1[0] (net)                  2        0.002               0.000      0.201 r
+  U32/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  given_in[0] (net)              1        0.050               0.000      0.377 r
+  given_in[0] (out)                                 0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[7] (input port clocked by clk)
+  Endpoint: trans_out[31]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[7] (in)                                      0.009     0.001      0.201 r
+  in_1[7] (net)                  2        0.002               0.000      0.201 r
+  U46/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[31] (net)            1        0.050               0.000      0.377 r
+  trans_out[31] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[6] (input port clocked by clk)
+  Endpoint: trans_out[30]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[6] (in)                                      0.009     0.001      0.201 r
+  in_1[6] (net)                  2        0.002               0.000      0.201 r
+  U44/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[30] (net)            1        0.050               0.000      0.377 r
+  trans_out[30] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[5] (input port clocked by clk)
+  Endpoint: trans_out[29]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[5] (in)                                      0.009     0.001      0.201 r
+  in_1[5] (net)                  2        0.002               0.000      0.201 r
+  U42/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[29] (net)            1        0.050               0.000      0.377 r
+  trans_out[29] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[4] (input port clocked by clk)
+  Endpoint: trans_out[28]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[4] (in)                                      0.009     0.001      0.201 r
+  in_1[4] (net)                  2        0.002               0.000      0.201 r
+  U40/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[28] (net)            1        0.050               0.000      0.377 r
+  trans_out[28] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[3] (input port clocked by clk)
+  Endpoint: trans_out[27]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[3] (in)                                      0.009     0.001      0.201 r
+  in_1[3] (net)                  2        0.002               0.000      0.201 r
+  U38/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[27] (net)            1        0.050               0.000      0.377 r
+  trans_out[27] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[2] (input port clocked by clk)
+  Endpoint: trans_out[26]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[2] (in)                                      0.009     0.001      0.201 r
+  in_1[2] (net)                  2        0.002               0.000      0.201 r
+  U36/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[26] (net)            1        0.050               0.000      0.377 r
+  trans_out[26] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[1] (input port clocked by clk)
+  Endpoint: trans_out[25]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[1] (in)                                      0.009     0.001      0.201 r
+  in_1[1] (net)                  2        0.002               0.000      0.201 r
+  U35/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[25] (net)            1        0.050               0.000      0.377 r
+  trans_out[25] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_1[0] (input port clocked by clk)
+  Endpoint: trans_out[24]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_1[0] (in)                                      0.009     0.001      0.201 r
+  in_1[0] (net)                  2        0.002               0.000      0.201 r
+  U33/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[24] (net)            1        0.050               0.000      0.377 r
+  trans_out[24] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[7] (input port clocked by clk)
+  Endpoint: trans_out[23]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[7] (in)                                      0.009     0.001      0.201 r
+  in_3[7] (net)                  2        0.002               0.000      0.201 r
+  U21/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[23] (net)            1        0.050               0.000      0.377 r
+  trans_out[23] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[6] (input port clocked by clk)
+  Endpoint: trans_out[22]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[6] (in)                                      0.009     0.001      0.201 r
+  in_3[6] (net)                  2        0.002               0.000      0.201 r
+  U23/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[22] (net)            1        0.050               0.000      0.377 r
+  trans_out[22] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[5] (input port clocked by clk)
+  Endpoint: trans_out[21]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[5] (in)                                      0.009     0.001      0.201 r
+  in_3[5] (net)                  2        0.002               0.000      0.201 r
+  U25/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[21] (net)            1        0.050               0.000      0.377 r
+  trans_out[21] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[4] (input port clocked by clk)
+  Endpoint: trans_out[20]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[4] (in)                                      0.009     0.001      0.201 r
+  in_3[4] (net)                  2        0.002               0.000      0.201 r
+  U27/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[20] (net)            1        0.050               0.000      0.377 r
+  trans_out[20] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[3] (input port clocked by clk)
+  Endpoint: trans_out[19]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[3] (in)                                      0.009     0.001      0.201 r
+  in_3[3] (net)                  2        0.002               0.000      0.201 r
+  U3/Z (BUFFD1)                                     0.305     0.176      0.377 r
+  trans_out[19] (net)            1        0.050               0.000      0.377 r
+  trans_out[19] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[2] (input port clocked by clk)
+  Endpoint: trans_out[18]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[2] (in)                                      0.009     0.001      0.201 r
+  in_3[2] (net)                  2        0.002               0.000      0.201 r
+  U30/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[18] (net)            1        0.050               0.000      0.377 r
+  trans_out[18] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[1] (input port clocked by clk)
+  Endpoint: trans_out[17]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[1] (in)                                      0.009     0.001      0.201 r
+  in_3[1] (net)                  2        0.002               0.000      0.201 r
+  U31/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[17] (net)            1        0.050               0.000      0.377 r
+  trans_out[17] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_3[0] (input port clocked by clk)
+  Endpoint: trans_out[16]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_3[0] (in)                                      0.009     0.001      0.201 r
+  in_3[0] (net)                  2        0.002               0.000      0.201 r
+  U64/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[16] (net)            1        0.050               0.000      0.377 r
+  trans_out[16] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[7] (input port clocked by clk)
+  Endpoint: trans_out[15]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[7] (in)                                      0.009     0.001      0.201 r
+  in_2[7] (net)                  2        0.002               0.000      0.201 r
+  U62/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[15] (net)            1        0.050               0.000      0.377 r
+  trans_out[15] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[6] (input port clocked by clk)
+  Endpoint: trans_out[14]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[6] (in)                                      0.009     0.001      0.201 r
+  in_2[6] (net)                  2        0.002               0.000      0.201 r
+  U60/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[14] (net)            1        0.050               0.000      0.377 r
+  trans_out[14] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[5] (input port clocked by clk)
+  Endpoint: trans_out[13]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[5] (in)                                      0.009     0.001      0.201 r
+  in_2[5] (net)                  2        0.002               0.000      0.201 r
+  U58/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[13] (net)            1        0.050               0.000      0.377 r
+  trans_out[13] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[4] (input port clocked by clk)
+  Endpoint: trans_out[12]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[4] (in)                                      0.009     0.001      0.201 r
+  in_2[4] (net)                  2        0.002               0.000      0.201 r
+  U56/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[12] (net)            1        0.050               0.000      0.377 r
+  trans_out[12] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[3] (input port clocked by clk)
+  Endpoint: trans_out[11]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[3] (in)                                      0.009     0.001      0.201 r
+  in_2[3] (net)                  2        0.002               0.000      0.201 r
+  U54/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[11] (net)            1        0.050               0.000      0.377 r
+  trans_out[11] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[2] (input port clocked by clk)
+  Endpoint: trans_out[10]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[2] (in)                                      0.009     0.001      0.201 r
+  in_2[2] (net)                  2        0.002               0.000      0.201 r
+  U52/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[10] (net)            1        0.050               0.000      0.377 r
+  trans_out[10] (out)                               0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[1] (input port clocked by clk)
+  Endpoint: trans_out[9]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[1] (in)                                      0.009     0.001      0.201 r
+  in_2[1] (net)                  2        0.002               0.000      0.201 r
+  U50/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[9] (net)             1        0.050               0.000      0.377 r
+  trans_out[9] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_2[0] (input port clocked by clk)
+  Endpoint: trans_out[8]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_2[0] (in)                                      0.009     0.001      0.201 r
+  in_2[0] (net)                  2        0.002               0.000      0.201 r
+  U48/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[8] (net)             1        0.050               0.000      0.377 r
+  trans_out[8] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[7] (input port clocked by clk)
+  Endpoint: trans_out[7]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[7] (in)                                      0.009     0.001      0.201 r
+  in_4[7] (net)                  2        0.002               0.000      0.201 r
+  U7/Z (BUFFD1)                                     0.305     0.176      0.377 r
+  trans_out[7] (net)             1        0.050               0.000      0.377 r
+  trans_out[7] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[6] (input port clocked by clk)
+  Endpoint: trans_out[6]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[6] (in)                                      0.009     0.001      0.201 r
+  in_4[6] (net)                  2        0.002               0.000      0.201 r
+  U9/Z (BUFFD1)                                     0.305     0.176      0.377 r
+  trans_out[6] (net)             1        0.050               0.000      0.377 r
+  trans_out[6] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[5] (input port clocked by clk)
+  Endpoint: trans_out[5]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[5] (in)                                      0.009     0.001      0.201 r
+  in_4[5] (net)                  2        0.002               0.000      0.201 r
+  U11/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[5] (net)             1        0.050               0.000      0.377 r
+  trans_out[5] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[4] (input port clocked by clk)
+  Endpoint: trans_out[4]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[4] (in)                                      0.009     0.001      0.201 r
+  in_4[4] (net)                  2        0.002               0.000      0.201 r
+  U2/Z (BUFFD1)                                     0.305     0.176      0.377 r
+  trans_out[4] (net)             1        0.050               0.000      0.377 r
+  trans_out[4] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[3] (input port clocked by clk)
+  Endpoint: trans_out[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[3] (in)                                      0.009     0.001      0.201 r
+  in_4[3] (net)                  2        0.002               0.000      0.201 r
+  U14/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[3] (net)             1        0.050               0.000      0.377 r
+  trans_out[3] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[2] (input port clocked by clk)
+  Endpoint: trans_out[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[2] (in)                                      0.009     0.001      0.201 r
+  in_4[2] (net)                  2        0.002               0.000      0.201 r
+  U16/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[2] (net)             1        0.050               0.000      0.377 r
+  trans_out[2] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[1] (input port clocked by clk)
+  Endpoint: trans_out[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[1] (in)                                      0.009     0.001      0.201 r
+  in_4[1] (net)                  2        0.002               0.000      0.201 r
+  U18/Z (BUFFD1)                                    0.305     0.176      0.377 r
+  trans_out[1] (net)             1        0.050               0.000      0.377 r
+  trans_out[1] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+  Startpoint: in_4[0] (input port clocked by clk)
+  Endpoint: trans_out[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  matrix_transpose   ZeroWireload          tcbn65gplustc
+
+  Point                        Fanout       Cap     Trans      Incr       Path
+  -------------------------------------------------------------------------------
+  clock clk (rise edge)                                       0.000      0.000
+  clock network delay (ideal)                                 0.000      0.000
+  input external delay                                        0.200      0.200 r
+  in_4[0] (in)                                      0.009     0.001      0.201 r
+  in_4[0] (net)                  2        0.002               0.000      0.201 r
+  U1/Z (BUFFD1)                                     0.305     0.176      0.377 r
+  trans_out[0] (net)             1        0.050               0.000      0.377 r
+  trans_out[0] (out)                                0.305     0.000      0.377 r
+  data arrival time                                                      0.377
+
+  clock clk (rise edge)                                       1.000      1.000
+  clock network delay (ideal)                                 0.000      1.000
+  output external delay                                      -0.200      0.800
+  data required time                                                     0.800
+  -------------------------------------------------------------------------------
+  data required time                                                     0.800
+  data arrival time                                                     -0.377
+  -------------------------------------------------------------------------------
+  slack (MET)                                                            0.423
+
+
+1

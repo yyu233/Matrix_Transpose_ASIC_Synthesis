@@ -1,0 +1,26 @@
+ 
+****************************************
+Report : reference
+Design : matrix_transpose
+Version: Q-2019.12-SP5-3
+Date   : Thu May 12 21:46:22 2022
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+BUFFD1             tcbn65gplustc
+                                  1.440000      64     92.160004  
+-----------------------------------------------------------------------------
+Total 1 references                                     92.160004
+1

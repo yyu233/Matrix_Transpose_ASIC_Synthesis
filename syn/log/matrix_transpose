@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : matrix_transpose
+Version: Q-2019.12-SP5-3
+Date   : Thu May 12 21:46:22 2022
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    tcbn65gplustc (File: /home/linux/ieng6/ee260csp22/public/data/libraries/db/tcbn65gplustc.db)
+
+Number of ports:                           97
+Number of nets:                            96
+Number of cells:                           64
+Number of combinational cells:             64
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         64
+Number of references:                       1
+
+Combinational area:                 92.160004
+Buf/Inv area:                       92.160004
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    92.160004
+Total area:                 undefined
+1
